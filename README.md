@@ -34,7 +34,7 @@ plateaued (spectral bias on the sin 3πx mode) and only L-BFGS rescued it.
 ## Findings
 - Loss weighting matters: the optimizer follows the cheapest gradient, so a weak IC term is neglected.
 - L-BFGS helps a lot when Adam stalls, but adds little once the residual is limited by the fixed collocation set.
-- On this easy forward problem, finite differences beat the PINN in accuracy. PINNs pay off on inverse problems (Project 4).
+- On this easy forward problem, finite differences beat the PINN in accuracy. PINNs pay off on inverse problems.
 - Largest errors sit along the walls (t ≈ 0.1–0.5).
 
 
