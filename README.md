@@ -39,7 +39,7 @@ plateaued (spectral bias on the sin 3πx mode) and only L-BFGS rescued it.
 
 
 ## Run
-Open `notebooks/heat1d.ipynb` in Google Colab and run all cells (~4 min on a GPU).
+Open `1D_Transient_Heat_Conduction.ipynb` in Google Colab and run all cells (~4 min on a GPU).
 
 ## Possible improvements
 Resample collocation points, add more BC points, log the weighted run's loss history.
